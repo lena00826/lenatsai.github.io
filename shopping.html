@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  
+  
+  <title>PASAG BAKERY</title>
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="logo.png" type="image/x-icon" / >
+</head>
+
+
+<body>
+
+
+
+<div class="menu">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <img src="logo.png" class="logo" alt="...">
+    <a class="navbar-brand" href="index2.html">PASAG PASAG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"   aria-expanded="false" aria-label="Toggle navigation" onclick="ChangeClass()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">ABOUT US</a>
+        </li>
+        
+        
+        <li class="nav-item">
+         
+          <a class="nav-link" href="store.html">STORE</a>
+    
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="shopping.html">SHOPPING CART</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="https://instagram.com/blue_bananaaaaa?igshid=1grpmlykg70cm">INSTERGRAM</a>
+          </li> 
+             
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+   
+   
+    <script type="text/javascript" language="Javascript">
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+function ChangeClass()
+{
+	
+	
+	var div=document.getElementById("navbarSupportedContent")
+	if (div.className==='navbar-collapse collapse show')
+	{
+		div.className='navbar-collapse collapse'
+		
+	}
+	else
+	{
+		
+		div.className='navbar-collapse collapse show'
+
+	}
+	
+	
+}
+</script>
+   
+   <div class="block" style="background-color:white;padding:10px; width: 100%"></div>
+        
+     <div class="row justify-content-center">
+         <div class="col-3" style="margin-left:30px">
+         <p class="shop01">01. check order</p>
+          <hr size="4" align="center" noshade width="90%" color="#D4D4D4">
+     <p class="shop1-2">購物清單確認</p>
+     </div>
+     <div class="w-100 d-xl-none d-block"></div>
+     <div class="col-3" style="margin-left: 30px;">
+     <p class="shop1">02. Shipping and Billing info</p>
+          <hr size="4" align="center" noshade width="90%" color="#D4D4D4">
+            <p class="shop1-2">確認購買與付款方式</p>
+     
+     </div>
+     <div class="w-100 d-xl-none d-block"></div>
+     <div class="col-3" style="margin-left: 30px;">
+     <p class="shop1">03. Order Complete</p>
+          <hr size="4" align="center" noshade width="90%" color="#D4D4D4">
+            <p class="shop1-2">完成訂單</p>
+     
+     </div>
+     </div>
+     
+     
+     
+     
+     
+     
+        
+   <div style="margin: 100px 200px; padding: 30px; border:2px gray solid;">
+    
+    
+     <div class="table-wrapper">
+     
+     
+  <table class="table">
+    <thead>
+      <tr>
+        <th>商品名稱</th>
+        <th>數量</th>
+        <th>價錢</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-title="商品名稱">
+         原味蛋塔
+        </td>
+        <td data-title="數量">
+          
+         <select class="qty489907ee-9a9c-44d5-aa84-9c942632cd70" name="selectQty" data-saleid="01038928" data-productid="01038928" data-colorid="99" data-sizeid="F"><option value="1">1</option><script> $(function () {
+                                                        $(".qty489907ee-9a9c-44d5-aa84-9c942632cd70 option[value ='1']").prop("selected", "true"); });
+                                          </script><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
+         
+        </td>
+        <td data-title="價錢">
+         ＄160
+        </td>
+      
+      </tr>
+    </tbody>
+  </table>
+  
+      <a href="b1.html"><img src="b1.png" style="width: 300px;max-width: 100% ;border: none;" alt=""></a>
+  
+</div>
+    
+    
+     </div>
+     
+    
+    
+    
+   <div class="shoppingbtn" style="margin:70px 0px "> <a href="store.html"><button style="margin-left: 45%"type="button" class="btn btn-outline-secondary">繼續購物</button></a><button style="margin-left:20px"type="button" class="btn btn-outline-secondary">下一頁</button>
+     
+     
+     </div>
+     
+     
+</body>

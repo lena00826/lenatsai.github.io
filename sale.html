@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+ <title>PASAG BAKERY</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+   
+      <script>
+function myFunction()
+{
+alert("已加入購物車！");
+}
+</script>
+   
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="logo.png" type="image/x-icon" / >
+</head>
+
+<body>
+    
+
+    <div class="menu">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <img src="logo.png" class="logo" alt="...">
+    <a class="navbar-brand" href="index2.html">PASAG PASAG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"   aria-expanded="false" aria-label="Toggle navigation" onclick="ChangeClass()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">ABOUT US</a>
+        </li>
+        
+        
+        <li class="nav-item">
+         
+          <a class="nav-link" href="store.html">STORE</a>
+    
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="shopping.html">SHOPPING CART</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="https://instagram.com/blue_bananaaaaa?igshid=1grpmlykg70cm">INSTERGRAM</a>
+        </li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+   
+   
+   
+    <script type="text/javascript" language="Javascript">
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+function ChangeClass()
+{
+	
+	
+	var div=document.getElementById("navbarSupportedContent")
+	if (div.className==='navbar-collapse collapse show')
+	{
+		div.className='navbar-collapse collapse'
+		
+	}
+	else
+	{
+		
+		div.className='navbar-collapse collapse show'
+
+	}
+	
+	
+}
+</script>
+    <section id="title">
+     <div class="toptitle" >
+     
+     <a href="store.html" style="color: #9E6700;">ALL</a> <a style="margin-left: 10px; color: #9E6700"href="new.html">NEW</a> <a style="margin-left: 10px;color: #9E6700;"href="#">SALE</a> <a style="margin-left: 10px; color: #9E6700;"href="best.html">BEST</a> <a style="margin-left: 10px; color: #9E6700;" href="classic.html">CLASSIC</a>
+     
+     </div>
+    </section>
+    
+   
+   <div class="container text-black" style="margin-bottom: 100px;">
+       <div class="row justify-content-center">
+             <div class="card1" style="width: 20rem;">
+  <a href="#"><img src="s1.png" class="card-img-top" alt="..."></a>
+  <div class="card-body">
+    <h5 class="newtitle">Matcha roll</h5>
+    <p class="card-text">抹茶卷<br><span style=" text-decoration: line-through">$280</span>
+    <br> <span style="color: #EB9900">$230</span>
+    </p>
+    
+    
+     <input class="btn btn-outline-secondary" style="font-family:'Noto Sans TC', sans-serif; "type="button" onclick="myFunction()" value="加入購物車">
+     
+     
+ 
+  </div>
+</div>
+           <div class="w-100 d-xl-none d-block"></div>
+         <div class="card2" style="width: 20rem;">
+         <img src="s2.png" class="card-img-top" alt="...">
+         <div class="card-body">
+        <h5 class="newtitle">Macaron</h5>
+        <p class="card-text">馬卡龍<br><span style=" text-decoration: line-through">$120</span>
+    <br> <span style="color: #EB9900">$80</span></p>
+        <button type="button" class="btn btn-outline-secondary ">加入購物車</button>
+         
+        </div>
+        </div>
+           <div class="w-100 d-xl-none d-block "></div>
+         <div class="card3" style="width: 20rem;">
+         <img src="s3.png" class="card-img-top" alt="...">
+         <div class="card-body">
+        <h5 class="newtitle">Blue berry tart</h5>
+        <p class="card-text">藍莓塔<br><span style=" text-decoration: line-through">$80</span>
+    <br> <span style="color: #EB9900">$60</span></p>
+         <button type="button" class="btn btn-outline-secondary">加入購物車</button>
+        </div>
+        </div>
+           </div>
+         </div>
+         
+          
+         
+  
+      
+      </body>
+      
